@@ -136,7 +136,7 @@ h1{
     display: block;
     }
 }
-@media(max-width: 470px){
+@media(max-width: 450px){
     .sidebar{
         width: 100%;
     }
