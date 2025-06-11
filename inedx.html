@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>joshuamorovia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <header id="mup">
+         <nav class="sidebar">
+            <button onclick="hideSidebar()"><i class="fa-solid fa-xmark fa-fade" style="color: #0f95ef;"></i></button>
+            <img src="image/send.jpg" alt="logo" data-aos="zoom-in">
+            <a href="example.htm" >HOME</a>
+            <a href="About.html" >ABOUT</a>
+            <a href="Contact.html" >CONTACT</a>
+        </nav>  
+        <nav>
+            <img src="image/send.jpg" alt="logo" data-aos="zoom-in" ></com>
+            <a href="example.htm" class="hideOnMobile">HOME</a>
+            <a href="About.html" class="hideOnMobile" >ABOUT</a>
+            <a href="Contact.html" class="hideOnMobile">CONTACT</a>
+           <button onclick="showSidebar()" class="menu-btn" ><a href="#"><i class="fa-solid fa-bars fa-fade" style="color: #0b9df1;"></i></a></button>
+        </nav>
+     </header>
+     <br><br>
+    <section class="sec-1 ">
+            <h1>SERVICES YOU CAN GET</h1>
+            <div class="box" data-aos="fade-right">
+             Software Development
+Custom Software Development: Building bespoke applications tailored to client needs.
+
+Web Development:
+
+Frontend (React, Angular, Vue.js)
+
+Backend (Node.js, Django, Ruby on Rails)
+
+Mobile App Development:
+
+Native (Swift for iOS, Kotlin for Android)
+
+Cross-platform (Flutter, React Native)
+
+Desktop Application Development: Windows, macOS, or Linux apps using .NET, Electron, etc.
+            </div>
+            <br><br>
+            <div class="box" data-aos="fade-left">
+                System Architecture & Design
+Software Architecture: Designing scalable, maintainable systems.
+
+Microservices Architecture: Building loosely coupled services.
+
+API Design and Development: RESTful APIs, GraphQL, gRPC.
+
+
+
+            </div>
+            <br><br>
+            <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22773.92488076552!2d-13.236951699999999!3d8.461977899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2ssl!4v1748966766868!5m2!1sen!2ssl" width="600" height="450" style="border:0; border-radius: 15px;flex-wrap:wrap; position:relative; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+        
+    </section>
+
+<div class="btn">
+    <a href="Contact.html" data-aos="fade-right"><button class="bb">CONTACT</button></a>
+</div>
+<footer>
+    <div class="fot">
+    <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook" style="color: royalblue;" data-aos="fade-up"></i></a>
+    <a href="https://instagram.com/_morovia_" target="_blank"><i class="fa-brands fa-square-instagram" style="color: palevioletred;" data-aos="fade-up"></i></a>
+    <a href="https://whatsapp.com/+23276620959" target="_blank"><i class="fa-brands fa-square-whatsapp" style="color: green;" data-aos="fade-up"></i></a>
+    <a href="https://youtube.com/@joshuamorovia" target="_blank"><i class="fa-brands fa-youtube" style="color: red;" data-aos="fade-up"></i></a>
+    </div>
+    <br>
+    <a href="#mup"><i class="fa-solid fa-angle-up fa-beat-fade" style="color: #3d607a; font-size: 90px;" data-aos="fade-left"></i></a>
+    <br>
+    <i class="fa-regular fa-copyright" style="color: aliceblue;"></i>All Right Reserved 2025
+</footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function showSidebar(){
+        var sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+         var sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>

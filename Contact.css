@@ -1,0 +1,108 @@
+body{
+    background-image: url(image/subtle-prism.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ade{
+    text-align: center;
+}
+
+.container{
+    box-shadow: 3px 5px rgb(14, 14, 14); 
+    justify-content:center;
+    align-items:center;    
+}
+video{
+    /*width: 1200px;*/
+    width: 1000px;
+    height: 500px;
+    padding-left: 20px;
+}
+.cont{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.head{
+    text-align: center;
+    box-shadow: 4px 5px;
+    background-color: aqua;
+}
+li{
+    list-style:none;
+}
+
+.left{
+    padding: 10px;
+    width: 130px;
+    margin-left: 30px;
+    background-color: aqua;
+    box-shadow: 3px 4px black;
+    text-align: center;
+    
+}
+
+.right{
+    padding: 10px;
+    width: 135px;
+    margin-left: 30px;
+    background-color: aqua;
+    box-shadow: 3px 4px black;
+   
+}
+.ed{
+    color: black;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+input{
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    background-color: rgb(234, 238, 238);
+    
+    
+}
+label{
+    display: block;
+}
+
+.data{
+    width:260px;
+    box-shadow: 0 0 20px aqua ;
+    background-image: url(image/tree.jpg);
+    padding: 10px;
+    color: aqua;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+textarea{
+    background-color:rgb(234, 238, 238); 
+    resize:none;
+    border: 2px solid aqua;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    /*background-color: black;*/
+    color: rgb(18, 18, 18);
+}
+
+.fot{
+    font-size: 60px;
+    gap: 80px;
+}
